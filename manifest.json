@@ -1,0 +1,16 @@
+{
+  "background_color": "#0080c0",
+  "description": "",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Monobank",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Monobank",
+  "start_url": "/",
+  "theme_color": "#8080ff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": []
+}
