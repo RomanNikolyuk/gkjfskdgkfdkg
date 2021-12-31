@@ -1,0 +1,170 @@
+* {
+    user-select: none;
+    margin: 0; padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+body {
+    background: url("assets/images/background.png") repeat;
+    background-size: 80px;
+}
+
+i {
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 2.5%;
+}
+
+.body {
+    margin-top: 85px;
+    background: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+}
+
+.main__image {
+    background: #3B35A9;
+    width: 62px;
+    height: 62px;
+    /*padding: 15px;*/
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -29.8px;
+    left: 42%;
+}
+
+.image {
+    width: 40px;
+}
+
+.collapse {
+    overflow: auto;
+}
+
+.to {
+    margin-top: 52px;
+    font-size: 18px;
+}
+
+.hr {
+    width: 80%;
+    height: 1px;
+    border-bottom: 1px #ccc solid;
+    margin: 0 auto;
+}
+
+.type-transaction {
+    margin-top: 30px;
+    position: relative;
+}
+
+.type-transaction__text {
+    position: absolute;
+    top: -13px;
+    left: 130px;
+    background: #3732A7;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.date {
+    color: #888888;
+    margin-top: 30px;
+}
+
+.sum {
+    margin-top: 20px;
+    font-size:50px;
+    font-weight: 500;
+}
+
+.sum__cents {
+    font-size: 30px;
+    position: relative;
+    left: -17px;
+    font-weight: 500;
+}
+
+.sum__currency {
+    height:24px;
+    position: relative;
+    left: -26px;
+}
+
+.optional_data {
+    margin-top: 30px;
+    background: #F8F8F8;
+    overflow: auto;
+}
+
+.option {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.optional_data__option--image {
+    width: 30px;
+}
+
+.option__title {
+    color: #888;
+    font-size: 16px;
+    display: block;
+}
+
+.option__value {
+    font-size: 16px;
+}
+
+.option__text {
+    margin-left: 25px;
+}
+
+.option__value img {
+    width: 9px;
+    position: relative;
+    top: 2px;
+}
+
+.action {
+    margin: 0 20px;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+}
+.action {
+    margin-top: 5px;
+}
+
+.action:last-child {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.action__image {
+    width:29px;
+}
+
+.action__text {
+    margin-left: 20px;
+    /*border-bottom: 1px solid #888888;*/
+    position: relative;
+    font-size: 16px;
+}
